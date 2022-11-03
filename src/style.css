@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.app-wrapper {
+    width: 100%;
+    height: 100vh;
+    background: #f7e2e2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.song-list {
+    width: 50%;
+    height: 50vh;
+    padding: 20px;
+}
+
+.song-detail {
+    width: 50%;
+    height: 50vh;
+}
+
+.song-button {
+    display: flex;
+    padding: 12px;
+}
+
+.song-button button{
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
